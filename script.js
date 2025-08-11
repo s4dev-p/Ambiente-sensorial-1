@@ -181,9 +181,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            // Removed navigation buttons for minimalist design
+            // Added keyboard navigation support
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
             },
             breakpoints: {
                 768: {
@@ -210,9 +212,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            // Removed navigation buttons for minimalist design
+            // Added keyboard navigation support
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
             },
             breakpoints: {
                 768: {
@@ -239,9 +243,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            // Removed navigation buttons for minimalist design
+            // Added keyboard navigation support
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
             },
             breakpoints: {
                 640: {
@@ -271,16 +277,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            // Removed navigation buttons for minimalist design
+            // Added keyboard navigation support
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
             },
             breakpoints: {
-                768: {
+                640: {
                     slidesPerView: 2,
                 },
-                1024: {
+                768: {
                     slidesPerView: 3,
+                },
+                1024: {
+                    slidesPerView: 4,
                 }
             }
         });
@@ -300,9 +311,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            // Removed navigation buttons for minimalist design
+            // Added keyboard navigation support
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
             },
             breakpoints: {
                 768: {
@@ -329,9 +342,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            // Removed navigation buttons for minimalist design
+            // Added keyboard navigation support
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
             },
             breakpoints: {
                 640: {
@@ -358,9 +373,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            // Removed navigation buttons for minimalist design
+            // Added keyboard navigation support
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
             },
             breakpoints: {
                 768: {
